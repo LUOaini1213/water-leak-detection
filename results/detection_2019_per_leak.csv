@@ -1,0 +1,41 @@
+method,link,kind,start,window_end,detected,alarm_time,delay_h,detected_area_aware,area
+mnf_threshold,p523,abrupt,2019-01-15 23:00:00,2019-01-22 23:00:00,True,2019-01-16 06:00:00,7.00,True,AB
+mnf_threshold,p827,abrupt,2019-01-24 18:30:00,2019-01-31 18:30:00,True,2019-01-25 06:00:00,11.50,True,AB
+mnf_threshold,p280,abrupt,2019-02-10 13:05:00,2019-02-17 13:05:00,False,,,False,C
+mnf_threshold,p653,incipient,2019-03-03 13:10:00,2019-04-28 19:00:00,True,2019-04-21 06:00:00,1168.83,True,AB
+mnf_threshold,p710,abrupt,2019-03-24 14:15:00,2019-03-31 14:15:00,False,,,False,AB
+mnf_threshold,p514,abrupt,2019-04-02 20:40:00,2019-04-09 20:40:00,False,,,False,AB
+mnf_threshold,p331,abrupt,2019-04-20 10:10:00,2019-04-27 10:10:00,False,,,False,AB
+mnf_threshold,p193,incipient,2019-05-19 10:40:00,2019-08-01 03:20:00,True,2019-06-13 06:00:00,595.33,True,AB
+mnf_threshold,p277,incipient,2019-05-30 21:55:00,2019-08-18 15:05:00,True,2019-07-09 06:00:00,944.08,True,C
+mnf_threshold,p142,abrupt,2019-06-12 19:55:00,2019-06-19 19:55:00,False,,,False,AB
+mnf_threshold,p680,abrupt,2019-07-10 08:45:00,2019-07-17 08:45:00,True,2019-07-14 06:00:00,93.25,True,AB
+mnf_threshold,p586,incipient,2019-07-26 14:40:00,2019-09-04 07:55:00,True,2019-08-18 06:00:00,543.33,True,AB
+mnf_threshold,p721,incipient,2019-08-02 03:00:00,2019-09-30 05:40:00,True,2019-08-25 06:00:00,555.00,True,AB
+mnf_threshold,p800,incipient,2019-08-16 14:00:00,2019-09-14 21:05:00,True,2019-09-01 06:00:00,376.00,True,AB
+mnf_threshold,p123,incipient,2019-09-13 20:05:00,2019-12-06 22:10:00,True,2019-09-15 06:00:00,33.92,True,AB
+mnf_threshold,p455,incipient,2019-10-03 14:00:00,2019-12-23 05:25:00,True,2019-10-06 06:00:00,64.00,True,AB
+mnf_threshold,p762,incipient,2019-10-09 10:15:00,2019-12-10 01:15:00,True,2019-10-26 06:00:00,403.75,True,AB
+mnf_threshold,p426,abrupt,2019-10-25 13:25:00,2019-11-01 13:25:00,False,,,False,AB
+mnf_threshold,p879,incipient,2019-11-20 11:55:00,2019-12-31 23:55:00,False,,,False,AB
+pressure_cusum,p523,abrupt,2019-01-15 23:00:00,2019-01-22 23:00:00,True,2019-01-16 00:00:00,1.00,True,AB
+pressure_cusum,p827,abrupt,2019-01-24 18:30:00,2019-01-31 18:30:00,True,2019-01-25 00:00:00,5.50,True,AB
+pressure_cusum,p280,abrupt,2019-02-10 13:05:00,2019-02-17 13:05:00,True,2019-02-14 00:00:00,82.92,False,C
+pressure_cusum,p653,incipient,2019-03-03 13:10:00,2019-04-28 19:00:00,True,2019-03-09 00:00:00,130.83,True,AB
+pressure_cusum,p710,abrupt,2019-03-24 14:15:00,2019-03-31 14:15:00,True,2019-03-26 00:00:00,33.75,True,AB
+pressure_cusum,p514,abrupt,2019-04-02 20:40:00,2019-04-09 20:40:00,True,2019-04-04 00:00:00,27.33,True,AB
+pressure_cusum,p331,abrupt,2019-04-20 10:10:00,2019-04-27 10:10:00,True,2019-04-21 00:00:00,13.83,True,AB
+pressure_cusum,p193,incipient,2019-05-19 10:40:00,2019-08-01 03:20:00,True,2019-05-23 00:00:00,85.33,True,AB
+pressure_cusum,p277,incipient,2019-05-30 21:55:00,2019-08-18 15:05:00,True,2019-06-02 00:00:00,50.08,False,C
+pressure_cusum,p142,abrupt,2019-06-12 19:55:00,2019-06-19 19:55:00,True,2019-06-13 00:00:00,4.08,True,AB
+pressure_cusum,p680,abrupt,2019-07-10 08:45:00,2019-07-17 08:45:00,True,2019-07-11 00:00:00,15.25,True,AB
+pressure_cusum,p586,incipient,2019-07-26 14:40:00,2019-09-04 07:55:00,True,2019-07-29 00:00:00,57.33,True,AB
+pressure_cusum,p721,incipient,2019-08-02 03:00:00,2019-09-30 05:40:00,True,2019-08-03 00:00:00,21.00,True,AB
+pressure_cusum,p800,incipient,2019-08-16 14:00:00,2019-09-14 21:05:00,True,2019-08-19 00:00:00,58.00,True,AB
+pressure_cusum,p123,incipient,2019-09-13 20:05:00,2019-12-06 22:10:00,True,2019-09-16 00:00:00,51.92,True,AB
+pressure_cusum,p455,incipient,2019-10-03 14:00:00,2019-12-23 05:25:00,True,2019-10-07 00:00:00,82.00,True,AB
+pressure_cusum,p762,incipient,2019-10-09 10:15:00,2019-12-10 01:15:00,True,2019-10-11 00:00:00,37.75,True,AB
+pressure_cusum,p426,abrupt,2019-10-25 13:25:00,2019-11-01 13:25:00,True,2019-10-26 00:00:00,10.58,True,AB
+pressure_cusum,p879,incipient,2019-11-20 11:55:00,2019-12-31 23:55:00,True,2019-11-24 00:00:00,84.08,True,AB
+balance_cusum,p280,abrupt,2019-02-10 13:05:00,2019-02-17 13:05:00,True,2019-02-11 00:00:00,10.92,True,C
+balance_cusum,p277,incipient,2019-05-30 21:55:00,2019-08-18 15:05:00,True,2019-06-23 00:00:00,554.08,True,C

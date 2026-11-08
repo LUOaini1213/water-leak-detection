@@ -1,0 +1,162 @@
+method,time,area,top_sensors,stat,label
+mnf_threshold,2018-02-03 06:00:00,AB,,30.6375,TP
+mnf_threshold,2018-03-06 06:00:00,AB,,27.2250,TP
+mnf_threshold,2018-05-05 06:00:00,AB,,21.5067,TP
+mnf_threshold,2018-05-12 06:00:00,AB,,26.3625,duplicate
+mnf_threshold,2018-05-19 06:00:00,AB,,50.9300,TP
+mnf_threshold,2018-06-02 06:00:00,AB,,36.7267,TP
+mnf_threshold,2018-07-09 06:00:00,C,,8.1436,TP
+mnf_threshold,2018-07-14 06:00:00,AB,,20.5108,TP
+mnf_threshold,2018-07-16 06:00:00,C,,8.1628,duplicate
+mnf_threshold,2018-09-01 06:00:00,AB,,21.1875,TP
+mnf_threshold,2018-09-29 06:00:00,AB,,22.0975,duplicate
+mnf_threshold,2018-10-01 06:00:00,C,,9.9238,duplicate
+mnf_threshold,2018-10-06 06:00:00,AB,,45.2475,TP
+mnf_threshold,2018-10-26 06:00:00,AB,,32.4758,TP
+mnf_threshold,2018-11-03 06:00:00,AB,,20.2183,duplicate
+mnf_threshold,2019-01-16 06:00:00,AB,,23.9533,TP
+mnf_threshold,2019-01-25 06:00:00,AB,,28.0575,TP
+mnf_threshold,2019-04-21 06:00:00,AB,,29.2392,TP
+mnf_threshold,2019-06-13 06:00:00,AB,,25.3450,TP
+mnf_threshold,2019-07-09 06:00:00,C,,8.3294,TP
+mnf_threshold,2019-07-14 06:00:00,AB,,20.8500,TP
+mnf_threshold,2019-08-18 06:00:00,AB,,20.1600,TP
+mnf_threshold,2019-08-25 06:00:00,AB,,21.8967,TP
+mnf_threshold,2019-09-01 06:00:00,AB,,23.9175,TP
+mnf_threshold,2019-09-07 06:00:00,AB,,20.3192,duplicate
+mnf_threshold,2019-09-15 06:00:00,AB,,20.2233,TP
+mnf_threshold,2019-09-22 06:00:00,AB,,20.2475,duplicate
+mnf_threshold,2019-09-29 06:00:00,AB,,22.2825,duplicate
+mnf_threshold,2019-10-06 06:00:00,AB,,20.7867,TP
+mnf_threshold,2019-10-26 06:00:00,AB,,25.1558,TP
+mnf_threshold,2019-11-03 06:00:00,AB,,20.8875,duplicate
+mnf_threshold,2019-11-10 06:00:00,AB,,21.2808,duplicate
+pressure_cusum,2018-01-23 00:00:00,C,n1 n726 n410,12.3399,TP
+pressure_cusum,2018-02-02 00:00:00,AB,n613 n54 n105,11.2611,TP
+pressure_cusum,2018-02-06 00:00:00,AB,n613 n54 n549,15.4489,TP
+pressure_cusum,2018-02-11 00:00:00,AB,n636 n519 n429,49.9043,duplicate
+pressure_cusum,2018-02-21 00:00:00,AB,n114 n332 n519,11.4226,TP
+pressure_cusum,2018-03-01 00:00:00,AB,n114 n332 n105,10.2446,duplicate
+pressure_cusum,2018-03-06 00:00:00,AB,n229 n215 n342,110.8005,TP
+pressure_cusum,2018-03-13 00:00:00,AB,n332 n54 n415,10.5785,duplicate
+pressure_cusum,2018-03-20 00:00:00,AB,n332 n105 n415,14.1646,duplicate
+pressure_cusum,2018-03-24 00:00:00,AB,n519 n415 n188,28.0876,duplicate
+pressure_cusum,2018-03-30 00:00:00,AB,n332 n679 n114,15.7112,duplicate
+pressure_cusum,2018-04-03 00:00:00,AB,n644 n506 n636,40.1178,duplicate
+pressure_cusum,2018-04-21 00:00:00,AB,n429 n229 n215,10.8350,duplicate
+pressure_cusum,2018-05-03 00:00:00,AB,n429 n342 n229,10.6179,TP
+pressure_cusum,2018-05-08 00:00:00,AB,n613 n415 n188,16.6409,duplicate
+pressure_cusum,2018-05-12 00:00:00,AB,n613 n415 n54,27.2890,duplicate
+pressure_cusum,2018-05-16 00:00:00,AB,n613 n415 n54,74.0571,duplicate
+pressure_cusum,2018-05-20 00:00:00,AB,n506 n332 n105,258.6370,TP
+pressure_cusum,2018-05-27 00:00:00,AB,n679 n636 n114,16.9006,FP
+pressure_cusum,2018-05-31 00:00:00,AB,n636 n229 n163,190.8694,FP
+pressure_cusum,2018-06-04 00:00:00,AB,n679 n296 n644,163.2666,TP
+pressure_cusum,2018-06-09 00:00:00,AB,n288 n722 n769,12.9307,FP
+pressure_cusum,2018-06-13 00:00:00,AB,n288 n722 n726,345.3395,FP
+pressure_cusum,2018-07-08 00:00:00,AB,n215 n229 n342,11.5436,TP
+pressure_cusum,2018-07-20 00:00:00,AB,n429 n613 n740,11.0331,TP
+pressure_cusum,2018-07-31 00:00:00,AB,n613 n31 n740,12.0337,TP
+pressure_cusum,2018-08-08 00:00:00,AB,n752 n644 n114,138.8955,TP
+pressure_cusum,2018-08-15 00:00:00,AB,n54 n4 n296,17.3681,duplicate
+pressure_cusum,2018-08-23 00:00:00,AB,n613 n114 n726,12.0866,duplicate
+pressure_cusum,2018-08-30 00:00:00,AB,n613 n644 n679,13.2683,duplicate
+pressure_cusum,2018-09-03 00:00:00,AB,n769 n740 n288,89.1405,duplicate
+pressure_cusum,2018-09-10 00:00:00,AB,n613 n288 n549,11.5134,duplicate
+pressure_cusum,2018-09-18 00:00:00,AB,n613 n415 n54,14.7221,duplicate
+pressure_cusum,2018-10-03 00:00:00,AB,n636 n644 n229,11.0219,duplicate
+pressure_cusum,2018-10-07 00:00:00,AB,n644 n679 n342,99.5998,TP
+pressure_cusum,2018-10-19 00:00:00,AB,n288 n114 n644,13.2120,duplicate
+pressure_cusum,2018-10-24 00:00:00,AB,n296 n495 n415,21.2054,duplicate
+pressure_cusum,2018-10-28 00:00:00,AB,n410 n429 n342,116.5965,TP
+pressure_cusum,2018-11-09 00:00:00,AB,n54 n288 n644,16.1908,duplicate
+pressure_cusum,2019-01-16 00:00:00,AB,n506 n188 n519,22.5313,TP
+pressure_cusum,2019-01-25 00:00:00,AB,n726 n215 n506,144.6905,TP
+pressure_cusum,2019-01-31 00:00:00,AB,n726 n506 n215,16.3148,duplicate
+pressure_cusum,2019-02-04 00:00:00,AB,n679 n469 n516,95.8135,FP
+pressure_cusum,2019-02-08 00:00:00,AB,n288 n752 n769,185.5014,FP
+pressure_cusum,2019-02-14 00:00:00,AB,n613 n31 n679,10.6679,TP
+pressure_cusum,2019-03-09 00:00:00,AB,n613 n288 n429,10.3951,TP
+pressure_cusum,2019-03-16 00:00:00,AB,n613 n415 n4,16.9508,duplicate
+pressure_cusum,2019-03-20 00:00:00,AB,n613 n506 n429,13.7045,duplicate
+pressure_cusum,2019-03-26 00:00:00,AB,n644 n679 n613,30.4079,TP
+pressure_cusum,2019-03-31 00:00:00,AB,n613 n415 n54,11.2621,duplicate
+pressure_cusum,2019-04-04 00:00:00,AB,n332 n516 n495,136.4480,TP
+pressure_cusum,2019-04-09 00:00:00,AB,n613 n415 n549,21.6867,duplicate
+pressure_cusum,2019-04-13 00:00:00,AB,n613 n415 n288,13.1663,duplicate
+pressure_cusum,2019-04-17 00:00:00,AB,n613 n415 n54,28.9937,duplicate
+pressure_cusum,2019-04-21 00:00:00,AB,n410 n613 n415,99.6095,TP
+pressure_cusum,2019-05-04 00:00:00,AB,n613 n495 n429,11.6616,FP
+pressure_cusum,2019-05-08 00:00:00,AB,n636 n163 n229,63.9815,FP
+pressure_cusum,2019-05-15 00:00:00,AB,n429 n332 n613,13.8892,FP
+pressure_cusum,2019-05-23 00:00:00,AB,n429 n410 n613,14.3076,TP
+pressure_cusum,2019-05-29 00:00:00,AB,n410 n429 n644,12.0929,duplicate
+pressure_cusum,2019-06-02 00:00:00,AB,n429 n613 n644,12.7209,TP
+pressure_cusum,2019-06-07 00:00:00,AB,n429 n613 n644,14.9014,duplicate
+pressure_cusum,2019-06-13 00:00:00,AB,n613 n644 n429,40.3385,TP
+pressure_cusum,2019-06-19 00:00:00,AB,n613 n342 n679,10.1382,duplicate
+pressure_cusum,2019-06-24 00:00:00,AB,n342 n613 n229,10.3747,duplicate
+pressure_cusum,2019-06-28 00:00:00,AB,n613 n342 n644,10.3790,duplicate
+pressure_cusum,2019-07-04 00:00:00,AB,n613 n644 n410,10.6172,duplicate
+pressure_cusum,2019-07-11 00:00:00,AB,n229 n215 n644,30.7808,TP
+pressure_cusum,2019-07-16 00:00:00,AB,n613 n644 n342,19.4581,duplicate
+pressure_cusum,2019-07-20 00:00:00,AB,n636 n229 n519,44.1388,duplicate
+pressure_cusum,2019-07-24 00:00:00,AB,n54 n458 n163,13.7453,duplicate
+pressure_cusum,2019-07-29 00:00:00,AB,n54 n469 n740,19.0494,TP
+pressure_cusum,2019-08-03 00:00:00,AB,n549 n54 n458,12.9760,TP
+pressure_cusum,2019-08-07 00:00:00,AB,n549 n54 n163,12.0824,duplicate
+pressure_cusum,2019-08-11 00:00:00,AB,n549 n54 n105,14.7070,duplicate
+pressure_cusum,2019-08-15 00:00:00,AB,n549 n54 n458,17.3362,duplicate
+pressure_cusum,2019-08-19 00:00:00,AB,n549 n54 n188,17.7965,TP
+pressure_cusum,2019-08-23 00:00:00,AB,n549 n296 n752,43.6874,duplicate
+pressure_cusum,2019-08-27 00:00:00,AB,n296 n549 n752,48.0160,duplicate
+pressure_cusum,2019-08-31 00:00:00,AB,n296 n752 n342,80.3558,duplicate
+pressure_cusum,2019-09-04 00:00:00,AB,n296 n752 n332,128.4275,duplicate
+pressure_cusum,2019-09-08 00:00:00,AB,n296 n752 n215,169.6394,duplicate
+pressure_cusum,2019-09-12 00:00:00,AB,n296 n549 n644,20.1124,duplicate
+pressure_cusum,2019-09-16 00:00:00,AB,n332 n288 n54,22.7004,TP
+pressure_cusum,2019-09-20 00:00:00,AB,n342 n679 n636,13.8487,duplicate
+pressure_cusum,2019-09-24 00:00:00,AB,n54 n458 n415,12.5444,duplicate
+pressure_cusum,2019-09-29 00:00:00,AB,n54 n288 n163,12.0839,duplicate
+pressure_cusum,2019-10-03 00:00:00,AB,n288 n722 n726,642.8430,duplicate
+pressure_cusum,2019-10-07 00:00:00,AB,n54 n415 n163,23.9047,TP
+pressure_cusum,2019-10-11 00:00:00,AB,n54 n458 n188,16.0490,TP
+pressure_cusum,2019-10-16 00:00:00,AB,n54 n163 n415,15.1369,duplicate
+pressure_cusum,2019-10-21 00:00:00,AB,n54 n163 n469,20.1215,duplicate
+pressure_cusum,2019-10-26 00:00:00,AB,n429 n410 n342,14.5915,TP
+pressure_cusum,2019-10-30 00:00:00,AB,n429 n342 n644,11.4056,duplicate
+pressure_cusum,2019-11-03 00:00:00,AB,n429 n342 n644,23.3491,duplicate
+pressure_cusum,2019-11-08 00:00:00,AB,n429 n644 n342,22.9052,duplicate
+pressure_cusum,2019-11-12 00:00:00,AB,n54 n458 n415,24.0738,duplicate
+pressure_cusum,2019-11-16 00:00:00,AB,n288 n114 n679,11.7768,duplicate
+pressure_cusum,2019-11-20 00:00:00,AB,n429 n644 n342,23.1855,duplicate
+pressure_cusum,2019-11-24 00:00:00,AB,n429 n342 n644,20.7989,TP
+pressure_cusum,2019-11-28 00:00:00,AB,n429 n342 n644,21.0853,duplicate
+pressure_cusum,2019-12-03 00:00:00,AB,n769 n54 n288,16.8722,duplicate
+pressure_cusum,2019-12-07 00:00:00,AB,n769 n114 n288,12.1444,duplicate
+pressure_cusum,2019-12-11 00:00:00,AB,n429 n342 n644,25.9569,duplicate
+pressure_cusum,2019-12-15 00:00:00,AB,n54 n769 n296,24.3914,duplicate
+pressure_cusum,2019-12-19 00:00:00,AB,n769 n296 n54,14.9483,duplicate
+pressure_cusum,2019-12-23 00:00:00,AB,n54 n296 n769,25.6450,duplicate
+pressure_cusum,2019-12-27 00:00:00,AB,n769 n54 n296,21.7748,duplicate
+pressure_cusum,2019-12-31 00:00:00,AB,n769 n54 n415,24.2504,duplicate
+balance_cusum,2018-01-15 00:00:00,C,C,8.3096,TP
+balance_cusum,2018-01-23 00:00:00,C,C,10.2865,duplicate
+balance_cusum,2018-07-07 00:00:00,C,C,6.9547,TP
+balance_cusum,2018-07-15 00:00:00,C,C,5.6422,duplicate
+balance_cusum,2018-07-23 00:00:00,C,C,13.0605,duplicate
+balance_cusum,2018-07-31 00:00:00,C,C,10.8786,duplicate
+balance_cusum,2019-02-11 00:00:00,C,C,11.7432,TP
+balance_cusum,2019-06-23 00:00:00,C,C,5.7669,TP
+balance_cusum,2019-07-03 00:00:00,C,C,6.8544,duplicate
+balance_cusum,2019-07-12 00:00:00,C,C,5.2913,duplicate
+balance_cusum,2019-07-22 00:00:00,C,C,5.5055,duplicate
+balance_cusum,2019-08-02 00:00:00,C,C,6.0774,duplicate
+balance_cusum,2019-08-12 00:00:00,C,C,8.2762,duplicate
+balance_cusum,2019-09-10 00:00:00,C,C,5.8979,FP
+balance_cusum,2019-09-24 00:00:00,C,C,5.4056,FP
+balance_cusum,2019-10-09 00:00:00,C,C,7.6841,FP
+balance_cusum,2019-10-21 00:00:00,C,C,5.5085,FP
+balance_cusum,2019-11-12 00:00:00,C,C,6.1819,FP
+balance_cusum,2019-12-01 00:00:00,C,C,5.4181,FP
+balance_cusum,2019-12-13 00:00:00,C,C,5.9027,FP

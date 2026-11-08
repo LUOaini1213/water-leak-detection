@@ -1,0 +1,523 @@
+{
+  "method": "pressure_cusum + nearest-pipe-to-top-sensor",
+  "n_submissions": 70,
+  "total_score_eur": 123562.6,
+  "true_positives": 10,
+  "false_positives": 33,
+  "false_negatives": 13,
+  "repeats": 27,
+  "perfect_score_eur": 523153.82,
+  "share_of_perfect_pct": 23.618789594234446,
+  "detections": [
+    {
+      "link": "p497",
+      "step": 4320,
+      "leak": "p523",
+      "distance_m": 107.71525,
+      "delay_steps": 12,
+      "score": 8702.531916666665,
+      "outcome": "TP"
+    },
+    {
+      "link": "p822",
+      "step": 6912,
+      "leak": "p827",
+      "distance_m": 254.13275,
+      "delay_steps": 66,
+      "score": 6311.732083333335,
+      "outcome": "TP"
+    },
+    {
+      "link": "p822",
+      "step": 8640,
+      "leak": null,
+      "score": 0.0,
+      "outcome": "repeat"
+    },
+    {
+      "link": "p756",
+      "step": 9792,
+      "leak": null,
+      "score": -500.0,
+      "outcome": "FP"
+    },
+    {
+      "link": "p796",
+      "step": 10944,
+      "leak": null,
+      "score": -500.0,
+      "outcome": "FP"
+    },
+    {
+      "link": "p657",
+      "step": 12672,
+      "leak": "p654",
+      "distance_m": 148.3943,
+      "delay_steps": 64468,
+      "score": 33027.51016666667,
+      "outcome": "TP"
+    },
+    {
+      "link": "p657",
+      "step": 19296,
+      "leak": "p653",
+      "distance_m": 204.3886,
+      "delay_steps": 1570,
+      "score": 10109.626333333334,
+      "outcome": "TP"
+    },
+    {
+      "link": "p657",
+      "step": 21312,
+      "leak": null,
+      "score": 0.0,
+      "outcome": "repeat"
+    },
+    {
+      "link": "p657",
+      "step": 22464,
+      "leak": null,
+      "score": 0.0,
+      "outcome": "repeat"
+    },
+    {
+      "link": "p704",
+      "step": 24192,
+      "leak": "p710",
+      "distance_m": 167.88065,
+      "delay_steps": 405,
+      "score": 29220.284916666675,
+      "outcome": "TP"
+    },
+    {
+      "link": "p657",
+      "step": 25632,
+      "leak": null,
+      "score": 0.0,
+      "outcome": "repeat"
+    },
+    {
+      "link": "p226",
+      "step": 26784,
+      "leak": "p514",
+      "distance_m": 95.8674,
+      "delay_steps": 328,
+      "score": 14547.871666666668,
+      "outcome": "TP"
+    },
+    {
+      "link": "p657",
+      "step": 28224,
+      "leak": null,
+      "score": 0.0,
+      "outcome": "repeat"
+    },
+    {
+      "link": "p657",
+      "step": 29376,
+      "leak": null,
+      "score": 0.0,
+      "outcome": "repeat"
+    },
+    {
+      "link": "p657",
+      "step": 30528,
+      "leak": null,
+      "score": 0.0,
+      "outcome": "repeat"
+    },
+    {
+      "link": "p350",
+      "step": 31680,
+      "leak": null,
+      "score": -500.0,
+      "outcome": "FP"
+    },
+    {
+      "link": "p657",
+      "step": 35424,
+      "leak": null,
+      "score": 0.0,
+      "outcome": "repeat"
+    },
+    {
+      "link": "p695",
+      "step": 36576,
+      "leak": null,
+      "score": -500.0,
+      "outcome": "FP"
+    },
+    {
+      "link": "p378",
+      "step": 38592,
+      "leak": null,
+      "score": -500.0,
+      "outcome": "FP"
+    },
+    {
+      "link": "p378",
+      "step": 40896,
+      "leak": null,
+      "score": -500.0,
+      "outcome": "FP"
+    },
+    {
+      "link": "p350",
+      "step": 42624,
+      "leak": null,
+      "score": -500.0,
+      "outcome": "FP"
+    },
+    {
+      "link": "p378",
+      "step": 43776,
+      "leak": null,
+      "score": -500.0,
+      "outcome": "FP"
+    },
+    {
+      "link": "p378",
+      "step": 45216,
+      "leak": null,
+      "score": -500.0,
+      "outcome": "FP"
+    },
+    {
+      "link": "p657",
+      "step": 46944,
+      "leak": null,
+      "score": 0.0,
+      "outcome": "repeat"
+    },
+    {
+      "link": "p657",
+      "step": 48672,
+      "leak": null,
+      "score": 0.0,
+      "outcome": "repeat"
+    },
+    {
+      "link": "p899",
+      "step": 50112,
+      "leak": null,
+      "score": -500.0,
+      "outcome": "FP"
+    },
+    {
+      "link": "p657",
+      "step": 51264,
+      "leak": null,
+      "score": 0.0,
+      "outcome": "repeat"
+    },
+    {
+      "link": "p657",
+      "step": 52992,
+      "leak": null,
+      "score": 0.0,
+      "outcome": "repeat"
+    },
+    {
+      "link": "p701",
+      "step": 55008,
+      "leak": null,
+      "score": -500.0,
+      "outcome": "FP"
+    },
+    {
+      "link": "p657",
+      "step": 56448,
+      "leak": null,
+      "score": 0.0,
+      "outcome": "repeat"
+    },
+    {
+      "link": "p695",
+      "step": 57600,
+      "leak": null,
+      "score": -500.0,
+      "outcome": "FP"
+    },
+    {
+      "link": "p346",
+      "step": 58752,
+      "leak": null,
+      "score": -500.0,
+      "outcome": "FP"
+    },
+    {
+      "link": "p346",
+      "step": 60192,
+      "leak": null,
+      "score": -500.0,
+      "outcome": "FP"
+    },
+    {
+      "link": "p567",
+      "step": 61632,
+      "leak": "p586",
+      "distance_m": 220.8042,
+      "delay_steps": 2128,
+      "score": 11135.920333333333,
+      "outcome": "TP"
+    },
+    {
+      "link": "p567",
+      "step": 62784,
+      "leak": null,
+      "score": 0.0,
+      "outcome": "repeat"
+    },
+    {
+      "link": "p567",
+      "step": 63936,
+      "leak": null,
+      "score": 0.0,
+      "outcome": "repeat"
+    },
+    {
+      "link": "p567",
+      "step": 65088,
+      "leak": null,
+      "score": 0.0,
+      "outcome": "repeat"
+    },
+    {
+      "link": "p567",
+      "step": 66240,
+      "leak": null,
+      "score": 0.0,
+      "outcome": "repeat"
+    },
+    {
+      "link": "p567",
+      "step": 67392,
+      "leak": null,
+      "score": 0.0,
+      "outcome": "repeat"
+    },
+    {
+      "link": "p181",
+      "step": 68544,
+      "leak": "p800",
+      "distance_m": 80.80385,
+      "delay_steps": 3000,
+      "score": 12556.438250000001,
+      "outcome": "TP"
+    },
+    {
+      "link": "p181",
+      "step": 69696,
+      "leak": null,
+      "score": 0.0,
+      "outcome": "repeat"
+    },
+    {
+      "link": "p181",
+      "step": 70848,
+      "leak": null,
+      "score": 0.0,
+      "outcome": "repeat"
+    },
+    {
+      "link": "p181",
+      "step": 72000,
+      "leak": null,
+      "score": 0.0,
+      "outcome": "repeat"
+    },
+    {
+      "link": "p181",
+      "step": 73152,
+      "leak": null,
+      "score": 0.0,
+      "outcome": "repeat"
+    },
+    {
+      "link": "p226",
+      "step": 74304,
+      "leak": null,
+      "score": 0.0,
+      "outcome": "repeat"
+    },
+    {
+      "link": "p899",
+      "step": 75456,
+      "leak": null,
+      "score": -500.0,
+      "outcome": "FP"
+    },
+    {
+      "link": "p346",
+      "step": 76608,
+      "leak": null,
+      "score": -500.0,
+      "outcome": "FP"
+    },
+    {
+      "link": "p346",
+      "step": 78048,
+      "leak": null,
+      "score": -500.0,
+      "outcome": "FP"
+    },
+    {
+      "link": "p796",
+      "step": 79200,
+      "leak": null,
+      "score": -500.0,
+      "outcome": "FP"
+    },
+    {
+      "link": "p346",
+      "step": 80352,
+      "leak": null,
+      "score": -500.0,
+      "outcome": "FP"
+    },
+    {
+      "link": "p346",
+      "step": 81504,
+      "leak": null,
+      "score": -500.0,
+      "outcome": "FP"
+    },
+    {
+      "link": "p346",
+      "step": 82944,
+      "leak": null,
+      "score": -500.0,
+      "outcome": "FP"
+    },
+    {
+      "link": "p346",
+      "step": 84384,
+      "leak": null,
+      "score": -500.0,
+      "outcome": "FP"
+    },
+    {
+      "link": "p378",
+      "step": 85824,
+      "leak": null,
+      "score": -500.0,
+      "outcome": "FP"
+    },
+    {
+      "link": "p378",
+      "step": 86976,
+      "leak": null,
+      "score": -500.0,
+      "outcome": "FP"
+    },
+    {
+      "link": "p378",
+      "step": 88128,
+      "leak": null,
+      "score": -500.0,
+      "outcome": "FP"
+    },
+    {
+      "link": "p378",
+      "step": 89568,
+      "leak": null,
+      "score": -500.0,
+      "outcome": "FP"
+    },
+    {
+      "link": "p346",
+      "step": 90720,
+      "leak": null,
+      "score": -500.0,
+      "outcome": "FP"
+    },
+    {
+      "link": "p796",
+      "step": 91872,
+      "leak": "p762",
+      "distance_m": 225.71165,
+      "delay_steps": 10821,
+      "score": 11883.632583333332,
+      "outcome": "TP"
+    },
+    {
+      "link": "p378",
+      "step": 93024,
+      "leak": null,
+      "score": -500.0,
+      "outcome": "FP"
+    },
+    {
+      "link": "p378",
+      "step": 94176,
+      "leak": null,
+      "score": -500.0,
+      "outcome": "FP"
+    },
+    {
+      "link": "p378",
+      "step": 95328,
+      "leak": null,
+      "score": -500.0,
+      "outcome": "FP"
+    },
+    {
+      "link": "p882",
+      "step": 96768,
+      "leak": "p879",
+      "distance_m": 152.83204999999998,
+      "delay_steps": 3601,
+      "score": 2567.0512500000004,
+      "outcome": "TP"
+    },
+    {
+      "link": "p882",
+      "step": 97920,
+      "leak": null,
+      "score": 0.0,
+      "outcome": "repeat"
+    },
+    {
+      "link": "p378",
+      "step": 99072,
+      "leak": null,
+      "score": -500.0,
+      "outcome": "FP"
+    },
+    {
+      "link": "p346",
+      "step": 100224,
+      "leak": null,
+      "score": -500.0,
+      "outcome": "FP"
+    },
+    {
+      "link": "p882",
+      "step": 101376,
+      "leak": null,
+      "score": 0.0,
+      "outcome": "repeat"
+    },
+    {
+      "link": "p346",
+      "step": 102528,
+      "leak": null,
+      "score": -500.0,
+      "outcome": "FP"
+    },
+    {
+      "link": "p882",
+      "step": 103680,
+      "leak": null,
+      "score": 0.0,
+      "outcome": "repeat"
+    },
+    {
+      "link": "p882",
+      "step": 104832,
+      "leak": null,
+      "score": 0.0,
+      "outcome": "repeat"
+    }
+  ]
+}

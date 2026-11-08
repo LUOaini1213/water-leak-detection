@@ -1,0 +1,11 @@
+[project]
+name = "leakdet"
+version = "0.1.0"
+description = "Leak detection and water-balance analytics on the BattLeDIM 2020 (L-Town) benchmark"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+
+[tool.pytest.ini_options]
+pythonpath = ["src", "scripts"]
+testpaths = ["tests"]
+markers = ["rawdata: needs the full BattLeDIM files in data/raw (skipped when absent)"]

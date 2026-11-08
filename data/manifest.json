@@ -1,0 +1,86 @@
+{
+  "dataset": "Dataset of BattLeDIM: Battle of the Leakage Detection and Isolation Methods",
+  "doi": "10.5281/zenodo.4017659",
+  "concept_doi": "10.5281/zenodo.4017658",
+  "zenodo_version": "v1 (published 2020-09-07)",
+  "licence": "CC-BY-4.0",
+  "url": "https://zenodo.org/records/4017659",
+  "retrieved": "2026-11-06",
+  "not_fetched": [
+    "2018_SCADA.xlsx",
+    "2019_SCADA.xlsx",
+    "L-TOWN_Real.inp"
+  ],
+  "files": {
+    "2018_Fixed_Leakages_Report.txt": {
+      "size": 317,
+      "md5": "50b1f8b7ba0db5a19cedbb060c63d912",
+      "sha256": "5dba254c623b867a0a91150e2b5539842ca05a989fde6cf2754065d5b415a8f3"
+    },
+    "2018_Leakages.csv": {
+      "size": 6234468,
+      "md5": "c2c5fab90420da44f02e29775050abfe",
+      "sha256": "e1abd9d549a18880d8ae704dc90c06c8a3d5aecbd2541fa091548ef392084ba6"
+    },
+    "2018_SCADA_Demands.csv": {
+      "size": 56499753,
+      "md5": "8803afcb1da2428de169237be3d911fb",
+      "sha256": "713d9f03ff94128f44c7d8036a032cc1d7eebcbbc94fda9def2bbc3efc047dd5"
+    },
+    "2018_SCADA_Flows.csv": {
+      "size": 4023420,
+      "md5": "d0602c06946b46287e956f007e4264ee",
+      "sha256": "7f7e8625c9d92b083ee079a54cffb9ef803876de1e35017c1da0455968daf3ff"
+    },
+    "2018_SCADA_Levels.csv": {
+      "size": 2721000,
+      "md5": "92a512d6749ddf66fd6d99f2bdde6cc4",
+      "sha256": "a1fc5f0229448a620b6220f4d079b3162a255b3070acdce448608fbfc760903c"
+    },
+    "2018_SCADA_Pressures.csv": {
+      "size": 22593812,
+      "md5": "d389d8541350c19ff0bfc6b80f246d35",
+      "sha256": "7782d890a7195699be94ddc01cba392da7ca285908afff619065a9616e04dcae"
+    },
+    "2019_Leakages.csv": {
+      "size": 10414660,
+      "md5": "e1f0a43683813a90a9fec8562dde599b",
+      "sha256": "b2ffe56b6c2f3b6cdb6aae9aeb30b9c425ba911fff8e3716ae543a56ff7576cd"
+    },
+    "2019_SCADA_Demands.csv": {
+      "size": 56499940,
+      "md5": "b3e111de397a1b06d33b8a9f13bc997d",
+      "sha256": "004266aa039833b5ae0f37740487db4d90216d2ee947f14871c5d5d3f89b4151"
+    },
+    "2019_SCADA_Flows.csv": {
+      "size": 4130511,
+      "md5": "28fc99fdcbf80fcd26079e7fe602d6dc",
+      "sha256": "c709ea5ecc03197e1fe70cf4c2de7225f71015acb50a7445ed7765b5029f7f15"
+    },
+    "2019_SCADA_Levels.csv": {
+      "size": 2720780,
+      "md5": "e5a8050bd38729e4b7648b9d52abd5b1",
+      "sha256": "00624e97b72e63233beeccb48db528d43e59a87b116d0295d5c2a206ee0e75a8"
+    },
+    "2019_SCADA_Pressures.csv": {
+      "size": 22606417,
+      "md5": "5ea1e46d3f2f0a89a3f98d6fd39a851d",
+      "sha256": "a4af6616059cc9b366bbab76d880b2c772df544970c6ff4d4a29a58704ce05b1"
+    },
+    "L-TOWN.inp": {
+      "size": 412200,
+      "md5": "bfbb16b8b463e0576200ba6ad360f68e",
+      "sha256": "a7551b86745f4cc3433c78e60023077fa1386947d4d35372ffd3a0405622b436"
+    },
+    "README.txt": {
+      "size": 5303,
+      "md5": "7ad5cdc2eebfe78197a3412e80d07ddc",
+      "sha256": "e6a3e83bdf7f116c47c72640de6e4785fd3437b96428448adf9ca76f066f2226"
+    },
+    "dataset_configuration.yaml": {
+      "size": 3926,
+      "md5": "48486401f5b4d0447023f5ce5d242c52",
+      "sha256": "23471d8989d82c66a4909816ea248f7588d8ccc910e142265a7ea48db940b6a0"
+    }
+  }
+}

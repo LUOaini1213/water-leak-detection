@@ -1,0 +1,40 @@
+{
+  "mnf_night_window_h": [
+    0,
+    6
+  ],
+  "mnf_decision_hour": 6,
+  "daily_decision_hour": 24,
+  "ndf_exponent": 0.5,
+  "nominal_demand_band_pct": 10.0,
+  "grace_days": 7,
+  "chance_simulations": 2000,
+  "residual_k_features": 6,
+  "residual_train_hours": 181,
+  "residual_train_days": 7.5,
+  "mnf_grid_size": 150,
+  "cusum_grid_size": 125,
+  "balance_params": {
+    "k": 0.5,
+    "h": 5.0,
+    "ref_days": 7,
+    "min_ref": 7
+  },
+  "battledim": {
+    "xmax_m": 300.0,
+    "cost_water_eur_m3": 0.8,
+    "cost_crew_eur": 500.0
+  },
+  "metering": {
+    "flat_hours": 6.0,
+    "spike_z": 20.0,
+    "night_window_h": [
+      2,
+      4
+    ],
+    "night_robust_z": 3.5
+  },
+  "unmetered_ratio_C_pct": 10.378626017871749,
+  "cutoff": "2019-01-01",
+  "pressure_scale_median_mm": 0.5933697868035445
+}

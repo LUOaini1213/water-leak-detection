@@ -1,0 +1,16 @@
+{
+  "n": 19,
+  "n_sensors": 33,
+  "hit_at_1": 8,
+  "chance_at_1": 0.5757575757575758,
+  "hit_at_3": 10,
+  "chance_at_3": 1.7272727272727273,
+  "hit_at_5": 10,
+  "chance_at_5": 2.878787878787879,
+  "n_abrupt": 9,
+  "hit_at_1_abrupt": 7,
+  "n_incipient": 10,
+  "hit_at_1_incipient": 1,
+  "mnf_area_correct": 12,
+  "mnf_area_n": 12
+}

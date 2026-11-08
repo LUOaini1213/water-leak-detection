@@ -1,0 +1,44 @@
+{
+  "n_meters": 82,
+  "meters_per_category": {
+    "residential": 70,
+    "commercial": 8,
+    "industrial": 4
+  },
+  "index_gaps": 0,
+  "missing_readings": 0,
+  "negative_readings": 0,
+  "median_zero_share_pct": 2.2526636225266365,
+  "max_zero_share_pct": 10.349124809741248,
+  "max_zero_share_meter": "n25",
+  "meters_with_flat_runs_6h": 0,
+  "longest_flat_h": 1.1666666666666667,
+  "meters_with_spikes": 3,
+  "spike_meters": [
+    "n1",
+    "n25",
+    "n4"
+  ],
+  "spike_meter_categories": [
+    "industrial"
+  ],
+  "total_spikes": 2429,
+  "identical_2018_2019_pct_median": 100.0,
+  "identical_2018_2019_pct_mean": 98.56350001856184,
+  "meters_fully_identical_2018_2019": 74,
+  "night_ratio_median_by_category": {
+    "commercial": 0.5935399261048582,
+    "industrial": 0.3129277467050032,
+    "residential": 0.22273062366953533
+  },
+  "night_use_flagged": [
+    "n388"
+  ],
+  "continuous_flow_meters": 81,
+  "weekday_peak_hour_by_category": {
+    "commercial": 11,
+    "industrial": 9,
+    "residential": 9
+  },
+  "amr_share_of_area_C_inflow_pct_2019": 51.581632717245704
+}

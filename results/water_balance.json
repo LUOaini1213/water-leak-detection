@@ -1,0 +1,128 @@
+{
+  "2018": {
+    "hours": 8760.0,
+    "system": {
+      "system_input_m3": 1766883.7720263165,
+      "system_input_m3h": 201.69906073359778,
+      "authorised_consumption_m3": null,
+      "note": "areas A and B have no consumer meters in the dataset, so the network-wide balance relies on the nominal-demand estimate below",
+      "water_losses_estimate_m3h": 26.45524680483774,
+      "water_losses_estimate_pct": 13.116197323189116,
+      "true_leak_pct": 12.654529415381173
+    },
+    "area_C": {
+      "system_input_m3": 235128.456192983,
+      "billed_metered_m3": 154224.92967666665,
+      "unbilled_unmetered_estimate_m3": 16006.428677466934,
+      "n_demand_nodes": 92,
+      "n_metered_nodes": 82,
+      "water_losses_m3": 64897.09783884941,
+      "water_losses_m3h": 7.408344502151759,
+      "water_losses_pct_of_input": 27.600699162327146,
+      "non_revenue_water_m3": 80903.52651631634,
+      "non_revenue_water_pct": 34.40822426440563,
+      "apparent_losses_m3": null,
+      "apparent_losses_note": "no meter-error or theft information in the dataset; all water losses are treated as real losses"
+    },
+    "area_AB": {
+      "system_input_m3": 1531755.3158333332,
+      "authorised_consumption_estimate_m3": 1364904.451661804,
+      "nominal_to_measured_factor": 0.9922872289177455,
+      "water_losses_m3": 166850.8641715292,
+      "water_losses_m3h": 19.04690230268598,
+      "water_losses_low_m3h": 3.4658012563183545,
+      "water_losses_high_m3h": 34.6280033490536,
+      "water_losses_pct_of_input": 10.892788322445348,
+      "mnf_mean_m3h": 70.72116438356164,
+      "mnf_typical_hour": 4,
+      "night_leakage_mean_m3h": 18.858179839100977,
+      "night_day_factor_h": 23.809969401820705,
+      "mnf_method_losses_m3h": 18.7088618726261
+    },
+    "truth": {
+      "area_C": {
+        "leak_volume_m3": 64235.730833333335,
+        "leak_mean_m3h": 7.332845985540335,
+        "n_leaking_pipes": 2
+      },
+      "area_AB": {
+        "leak_volume_m3": 159355.09583333333,
+        "leak_mean_m3h": 18.191220985540333,
+        "n_leaking_pipes": 12
+      },
+      "system": {
+        "leak_volume_m3": 223590.82666666666,
+        "leak_mean_m3h": 25.524066971080668,
+        "n_leaking_pipes": 14
+      }
+    },
+    "error_vs_truth_m3h": {
+      "area_C": 0.07549851661142348,
+      "area_AB_balance": 0.8556813171456454,
+      "area_AB_mnf": 0.517640887085765
+    }
+  },
+  "2019": {
+    "hours": 8760.0,
+    "system": {
+      "system_input_m3": 2197216.91835614,
+      "system_input_m3h": 250.82384912741327,
+      "authorised_consumption_m3": null,
+      "note": "areas A and B have no consumer meters in the dataset, so the network-wide balance relies on the nominal-demand estimate below",
+      "water_losses_estimate_m3h": 75.59166431512331,
+      "water_losses_estimate_pct": 30.137351204081206,
+      "true_leak_pct": 29.76229939050581
+    },
+    "area_C": {
+      "system_input_m3": 298969.99918947346,
+      "billed_metered_m3": 154213.60691666664,
+      "unbilled_unmetered_estimate_m3": 16005.380952000294,
+      "n_demand_nodes": 92,
+      "n_metered_nodes": 82,
+      "water_losses_m3": 128751.01132080652,
+      "water_losses_m3h": 14.697604032055539,
+      "water_losses_pct_of_input": 43.06485990897369,
+      "non_revenue_water_m3": 144756.3922728068,
+      "non_revenue_water_pct": 48.4183672827543,
+      "apparent_losses_m3": null,
+      "apparent_losses_note": "no meter-error or theft information in the dataset; all water losses are treated as real losses"
+    },
+    "area_AB": {
+      "system_input_m3": 1898246.9191666667,
+      "authorised_consumption_estimate_m3": 1364814.951086993,
+      "nominal_to_measured_factor": 0.9921865700302366,
+      "water_losses_m3": 533431.9680796736,
+      "water_losses_m3h": 60.89406028306776,
+      "water_losses_low_m3h": 45.31398093275962,
+      "water_losses_high_m3h": 76.4741396333759,
+      "water_losses_pct_of_input": 28.101295078822044,
+      "mnf_mean_m3h": 113.06157305936073,
+      "mnf_typical_hour": 4,
+      "night_leakage_mean_m3h": 60.80336308910606,
+      "night_day_factor_h": 23.765762647611567,
+      "mnf_method_losses_m3h": 60.20992897301002
+    },
+    "truth": {
+      "area_C": {
+        "leak_volume_m3": 128104.28166666665,
+        "leak_mean_m3h": 14.623776445966513,
+        "n_leaking_pipes": 3
+      },
+      "area_AB": {
+        "leak_volume_m3": 525837.9958333333,
+        "leak_mean_m3h": 60.027168474124814,
+        "n_leaking_pipes": 20
+      },
+      "system": {
+        "leak_volume_m3": 653942.2775,
+        "leak_mean_m3h": 74.65094492009132,
+        "n_leaking_pipes": 23
+      }
+    },
+    "error_vs_truth_m3h": {
+      "area_C": 0.07382758608902584,
+      "area_AB_balance": 0.8668918089429454,
+      "area_AB_mnf": 0.18276049888520873
+    }
+  }
+}

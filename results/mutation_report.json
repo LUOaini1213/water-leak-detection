@@ -1,0 +1,253 @@
+{
+  "baseline": {
+    "returncode": 0,
+    "passed": 84,
+    "skipped": 4,
+    "seconds": 34.7
+  },
+  "n_mutants": 24,
+  "killed": 24,
+  "survived": [],
+  "mutants": [
+    {
+      "id": "M01",
+      "file": "src/leakdet/evaluation.py",
+      "description": "incipient leak windows end a grace period after onset instead of after the peak",
+      "occurrences": 1,
+      "compiled": true,
+      "killed": true,
+      "seconds": 31.0,
+      "first_failing_test": "tests/test_evaluation.py::test_windows"
+    },
+    {
+      "id": "M02",
+      "file": "src/leakdet/evaluation.py",
+      "description": "credit the latest-starting leak instead of the earliest",
+      "occurrences": 1,
+      "compiled": true,
+      "killed": true,
+      "seconds": 22.0,
+      "first_failing_test": "tests/test_evaluation.py::test_overlapping_windows_credit_earliest_start"
+    },
+    {
+      "id": "M03",
+      "file": "src/leakdet/evaluation.py",
+      "description": "repeat alarms counted as false alarms",
+      "occurrences": 1,
+      "compiled": true,
+      "killed": true,
+      "seconds": 18.9,
+      "first_failing_test": "tests/test_evaluation.py::test_match_tp_duplicate_fp_and_delay"
+    },
+    {
+      "id": "M04",
+      "file": "src/leakdet/evaluation.py",
+      "description": "carry-over leaks counted as events",
+      "occurrences": 1,
+      "compiled": true,
+      "killed": true,
+      "seconds": 16.1,
+      "first_failing_test": "tests/test_evaluation.py::test_events_and_carry_over"
+    },
+    {
+      "id": "M05",
+      "file": "src/leakdet/detectors.py",
+      "description": "CUSUM ignores the direction of change",
+      "occurrences": 1,
+      "compiled": true,
+      "killed": true,
+      "seconds": 17.5,
+      "first_failing_test": "tests/test_detectors.py::test_cusum_detects_drop_on_right_sensor_and_day"
+    },
+    {
+      "id": "M06",
+      "file": "src/leakdet/detectors.py",
+      "description": "CUSUM allowance added instead of subtracted",
+      "occurrences": 1,
+      "compiled": true,
+      "killed": true,
+      "seconds": 19.8,
+      "first_failing_test": "tests/test_detectors.py::test_cusum_detects_drop_on_right_sensor_and_day"
+    },
+    {
+      "id": "M07",
+      "file": "src/leakdet/detectors.py",
+      "description": "CUSUM statistic not reset after an alarm",
+      "occurrences": 1,
+      "compiled": true,
+      "killed": true,
+      "seconds": 25.8,
+      "first_failing_test": "tests/test_detectors.py::test_cusum_resets_after_alarm"
+    },
+    {
+      "id": "M08",
+      "file": "src/leakdet/detectors.py",
+      "description": "MNF rule alarms on decreases",
+      "occurrences": 1,
+      "compiled": true,
+      "killed": true,
+      "seconds": 22.3,
+      "first_failing_test": "tests/test_detectors.py::test_mnf_threshold_alarm_and_rearm"
+    },
+    {
+      "id": "M09",
+      "file": "src/leakdet/detectors.py",
+      "description": "MNF reference uses the mean (not robust to outlier nights)",
+      "occurrences": 1,
+      "compiled": true,
+      "killed": true,
+      "seconds": 20.0,
+      "first_failing_test": "tests/test_detectors.py::test_mnf_threshold_reference_is_median_of_recent_days"
+    },
+    {
+      "id": "M10",
+      "file": "src/leakdet/detectors.py",
+      "description": "wrong noise scale for daily residuals",
+      "occurrences": 1,
+      "compiled": true,
+      "killed": true,
+      "seconds": 16.0,
+      "first_failing_test": "tests/test_detectors.py::test_robust_scale"
+    },
+    {
+      "id": "M11",
+      "file": "src/leakdet/detectors.py",
+      "description": "regression uses the least correlated sensors",
+      "occurrences": 1,
+      "compiled": true,
+      "killed": true,
+      "seconds": 19.4,
+      "first_failing_test": "tests/test_detectors.py::test_residual_model_recovers_linear_relation"
+    },
+    {
+      "id": "M12",
+      "file": "src/leakdet/waterbalance.py",
+      "description": "tank storage change added to area-C inflow with the wrong sign",
+      "occurrences": 1,
+      "compiled": true,
+      "killed": true,
+      "seconds": 26.6,
+      "first_failing_test": "tests/test_waterbalance.py::test_area_inflows_identities"
+    },
+    {
+      "id": "M13",
+      "file": "src/leakdet/waterbalance.py",
+      "description": "MNF uses the night mean instead of the minimum",
+      "occurrences": 1,
+      "compiled": true,
+      "killed": true,
+      "seconds": 25.9,
+      "first_failing_test": "tests/test_waterbalance.py::test_daily_mnf_uses_night_window_and_hourly_means"
+    },
+    {
+      "id": "M14",
+      "file": "src/leakdet/waterbalance.py",
+      "description": "unmetered consumption counted as losses",
+      "occurrences": 1,
+      "compiled": true,
+      "killed": true,
+      "seconds": 26.1,
+      "first_failing_test": "tests/test_waterbalance.py::test_water_balance_synthetic"
+    },
+    {
+      "id": "M15",
+      "file": "src/leakdet/battledim.py",
+      "description": "off-by-one against MATLAB 1-based indexing",
+      "occurrences": 1,
+      "compiled": true,
+      "killed": true,
+      "seconds": 14.2,
+      "first_failing_test": "tests/test_battledim.py::test_exact_hit_scores_remaining_water"
+    },
+    {
+      "id": "M16",
+      "file": "src/leakdet/battledim.py",
+      "description": "crew cost rewarded instead of charged",
+      "occurrences": 1,
+      "compiled": true,
+      "killed": true,
+      "seconds": 16.2,
+      "first_failing_test": "tests/test_battledim.py::test_neighbour_pipe_pays_distance_cost"
+    },
+    {
+      "id": "M17",
+      "file": "src/leakdet/network.py",
+      "description": "pipe half-lengths left out of the link distance",
+      "occurrences": 1,
+      "compiled": true,
+      "killed": true,
+      "seconds": 14.7,
+      "first_failing_test": "tests/test_battledim.py::test_neighbour_pipe_pays_distance_cost"
+    },
+    {
+      "id": "M18",
+      "file": "src/leakdet/train.py",
+      "description": "LEAKAGE: training view includes evaluation-year rows",
+      "occurrences": 1,
+      "compiled": true,
+      "killed": true,
+      "seconds": 16.9,
+      "first_failing_test": "tests/test_leakage.py::test_training_view_drops_evaluation_rows_and_labels"
+    },
+    {
+      "id": "M19",
+      "file": "src/leakdet/train.py",
+      "description": "LEAKAGE: evaluation-year labels reach tuning",
+      "occurrences": 1,
+      "compiled": true,
+      "killed": true,
+      "seconds": 37.3,
+      "first_failing_test": "tests/test_leakage.py::test_training_view_drops_evaluation_rows_and_labels"
+    },
+    {
+      "id": "M20",
+      "file": "src/leakdet/train.py",
+      "description": "tuning picks the worst F1",
+      "occurrences": 1,
+      "compiled": true,
+      "killed": true,
+      "seconds": 76.0,
+      "first_failing_test": "tests/test_leakage.py::test_tuning_is_invariant_to_evaluation_year_and_reproduces_committed"
+    },
+    {
+      "id": "M21",
+      "file": "src/leakdet/metering.py",
+      "description": "level shifts reported as spikes",
+      "occurrences": 1,
+      "compiled": true,
+      "killed": true,
+      "seconds": 27.7,
+      "first_failing_test": "tests/test_metering.py::test_isolated_spikes_vs_level_shift"
+    },
+    {
+      "id": "M22",
+      "file": "src/leakdet/metering.py",
+      "description": "runs of zeros reported as stuck registers",
+      "occurrences": 1,
+      "compiled": true,
+      "killed": true,
+      "seconds": 28.9,
+      "first_failing_test": "tests/test_metering.py::test_quality_checks_counts"
+    },
+    {
+      "id": "M23",
+      "file": "src/leakdet/features.py",
+      "description": "area-C balance ignores unmetered consumption",
+      "occurrences": 1,
+      "compiled": true,
+      "killed": true,
+      "seconds": 29.5,
+      "first_failing_test": "tests/test_features.py::test_build_daily_inputs_synthetic"
+    },
+    {
+      "id": "M24",
+      "file": "src/leakdet/network.py",
+      "description": "tank zone not labelled as area C",
+      "occurrences": 1,
+      "compiled": true,
+      "killed": true,
+      "seconds": 39.5,
+      "first_failing_test": "tests/test_network.py::test_areas"
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "grace_days": 7,
+  "methods": {
+    "mnf_threshold": {
+      "scope": "all leaks",
+      "eval_2019": {
+        "n_events": 19,
+        "detected": 12,
+        "missed": 7,
+        "false_positives": 0,
+        "duplicates": 5,
+        "n_alarms": 17,
+        "fp_per_30d": 0.0,
+        "median_delay_h": 389.875
+      },
+      "eval_2019_area_aware": {
+        "n_events": 19,
+        "detected": 12,
+        "missed": 7,
+        "false_positives": 0,
+        "duplicates": 5,
+        "n_alarms": 17,
+        "fp_per_30d": 0.0,
+        "median_delay_h": 389.875
+      },
+      "train_2018": {
+        "n_events": 14,
+        "detected": 10,
+        "missed": 4,
+        "false_positives": 0,
+        "duplicates": 5,
+        "n_alarms": 15,
+        "fp_per_30d": 0.0,
+        "median_delay_h": 140.70833333333334
+      },
+      "chance_2019": {
+        "n_alarms": 17,
+        "mean_detected": 10.334,
+        "mean_false_positives": 2.824
+      },
+      "chance_2019_area_aware": {
+        "n_alarms": 17,
+        "mean_detected": 9.127,
+        "mean_false_positives": 4.0895
+      },
+      "area_C_2019": {
+        "n_events": 2,
+        "detected": 1,
+        "missed": 1,
+        "false_positives": 0,
+        "duplicates": 0,
+        "n_alarms": 1,
+        "fp_per_30d": 0.0,
+        "median_delay_h": 944.0833333333334
+      },
+      "area_C_2018": {
+        "n_events": 2,
+        "detected": 1,
+        "missed": 1,
+        "false_positives": 1,
+        "duplicates": 1,
+        "n_alarms": 3,
+        "fp_per_30d": 0.0821917808219178,
+        "median_delay_h": 259.4166666666667
+      },
+      "abrupt_events_2019": 9,
+      "abrupt_detected_2019": 3,
+      "abrupt_median_delay_h_2019": 11.5,
+      "incipient_events_2019": 10,
+      "incipient_detected_2019": 9,
+      "incipient_median_delay_h_2019": 543.3333333333334
+    },
+    "pressure_cusum": {
+      "scope": "all leaks",
+      "eval_2019": {
+        "n_events": 19,
+        "detected": 19,
+        "missed": 0,
+        "false_positives": 5,
+        "duplicates": 46,
+        "n_alarms": 70,
+        "fp_per_30d": 0.410958904109589,
+        "median_delay_h": 37.75
+      },
+      "eval_2019_area_aware": {
+        "n_events": 19,
+        "detected": 17,
+        "missed": 2,
+        "false_positives": 6,
+        "duplicates": 47,
+        "n_alarms": 70,
+        "fp_per_30d": 0.4931506849315068,
+        "median_delay_h": 33.75
+      },
+      "train_2018": {
+        "n_events": 14,
+        "detected": 14,
+        "missed": 0,
+        "false_positives": 4,
+        "duplicates": 21,
+        "n_alarms": 39,
+        "fp_per_30d": 0.3287671232876712,
+        "median_delay_h": 65.91666666666667
+      },
+      "chance_2019": {
+        "n_alarms": 70,
+        "mean_detected": 16.6115,
+        "mean_false_positives": 11.773
+      },
+      "chance_2019_area_aware": {
+        "n_alarms": 70,
+        "mean_detected": 15.427,
+        "mean_false_positives": 17.323
+      },
+      "area_C_2019": {
+        "n_events": 2,
+        "detected": 0,
+        "missed": 2,
+        "false_positives": 0,
+        "duplicates": 0,
+        "n_alarms": 0,
+        "fp_per_30d": 0.0,
+        "median_delay_h": null
+      },
+      "area_C_2018": {
+        "n_events": 2,
+        "detected": 1,
+        "missed": 1,
+        "false_positives": 0,
+        "duplicates": 0,
+        "n_alarms": 1,
+        "fp_per_30d": 0.0,
+        "median_delay_h": 346.5
+      },
+      "abrupt_events_2019": 9,
+      "abrupt_detected_2019": 9,
+      "abrupt_median_delay_h_2019": 13.833333333333334,
+      "incipient_events_2019": 10,
+      "incipient_detected_2019": 10,
+      "incipient_median_delay_h_2019": 57.66666666666667
+    },
+    "balance_cusum": {
+      "scope": "area C leaks only",
+      "eval_2019": {
+        "n_events": 2,
+        "detected": 2,
+        "missed": 0,
+        "false_positives": 7,
+        "duplicates": 5,
+        "n_alarms": 14,
+        "fp_per_30d": 0.5753424657534247,
+        "median_delay_h": 282.5
+      },
+      "eval_2019_area_aware": {
+        "n_events": 2,
+        "detected": 2,
+        "missed": 0,
+        "false_positives": 7,
+        "duplicates": 5,
+        "n_alarms": 14,
+        "fp_per_30d": 0.5753424657534247,
+        "median_delay_h": 282.5
+      },
+      "train_2018": {
+        "n_events": 2,
+        "detected": 2,
+        "missed": 0,
+        "false_positives": 0,
+        "duplicates": 4,
+        "n_alarms": 6,
+        "fp_per_30d": 0.0,
+        "median_delay_h": 179.95833333333331
+      },
+      "chance_2019": {
+        "n_alarms": 14,
+        "mean_detected": 1.213,
+        "mean_false_positives": 10.6345
+      },
+      "chance_2019_area_aware": {
+        "n_alarms": 14,
+        "mean_detected": 1.2115,
+        "mean_false_positives": 10.671
+      },
+      "area_C_2019": {
+        "n_events": 2,
+        "detected": 2,
+        "missed": 0,
+        "false_positives": 7,
+        "duplicates": 5,
+        "n_alarms": 14,
+        "fp_per_30d": 0.5753424657534247,
+        "median_delay_h": 282.5
+      },
+      "area_C_2018": {
+        "n_events": 2,
+        "detected": 2,
+        "missed": 0,
+        "false_positives": 0,
+        "duplicates": 4,
+        "n_alarms": 6,
+        "fp_per_30d": 0.0,
+        "median_delay_h": 179.95833333333331
+      },
+      "abrupt_events_2019": 1,
+      "abrupt_detected_2019": 1,
+      "abrupt_median_delay_h_2019": 10.916666666666666,
+      "incipient_events_2019": 1,
+      "incipient_detected_2019": 1,
+      "incipient_median_delay_h_2019": 554.0833333333334
+    }
+  },
+  "n_events_2019": 19,
+  "n_events_area_C_2019": 2
+}

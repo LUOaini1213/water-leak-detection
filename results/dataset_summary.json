@@ -1,0 +1,41 @@
+{
+  "n_junctions": 782,
+  "n_pipes": 905,
+  "n_pressure_sensors": 33,
+  "n_flow_sensors": 3,
+  "n_amr": 82,
+  "n_demand_nodes": 747,
+  "pressure_sensors_per_area": {
+    "A": 29,
+    "B": 1,
+    "C": 3
+  },
+  "demand_nodes_per_area": {
+    "A": 627,
+    "B": 27,
+    "C": 92
+  },
+  "amr_in_area_C": 82,
+  "leaks_total": 33,
+  "leaks_starting_2018": 14,
+  "leaks_starting_2019": 19,
+  "carry_over_into_2019": 4,
+  "carry_over_links": [
+    "p257",
+    "p427",
+    "p810",
+    "p654"
+  ],
+  "battledim_scored_leaks": 23,
+  "events_2019_by_kind": {
+    "abrupt": 9,
+    "incipient": 10
+  },
+  "events_2019_by_area": {
+    "AB": 17,
+    "C": 2
+  },
+  "samples_per_year": 105120,
+  "sampling_minutes": 5,
+  "missing_values": 0
+}
