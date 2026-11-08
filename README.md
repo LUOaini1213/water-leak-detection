@@ -209,6 +209,6 @@ docs/             README template and source list
 ## Data, licences and sources
 
 - **Data:** *Dataset of BattLeDIM: Battle of the Leakage Detection and Isolation Methods*, Vrachimis et al., Zenodo, [DOI 10.5281/zenodo.4017659](https://doi.org/10.5281/zenodo.4017659), licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). The raw files (about 189 MB) are not committed; `scripts/fetch_data.py` downloads them and checks them against [`data/manifest.json`](data/manifest.json). The committed derived files in `results/` and `tests/fixtures/` (including a compressed copy of the network file `L-TOWN.inp`) are adaptations of that dataset under the same licence.
-- **Scoring reference:** the official BattLeDIM scoring code and example reports, [KIOS-Research/BattLeDIM](https://github.com/KIOS-Research/BattLeDIM) (EUPL-1.2). No code from it is included; its example submissions and published totals are used as test fixtures.
-- **Code:** MIT licence, see [LICENSE](LICENSE).
+- **Scoring reference:** the official BattLeDIM scoring code and example reports, [KIOS-Research/BattLeDIM](https://github.com/KIOS-Research/BattLeDIM) (EUPL-1.2). [`src/leakdet/battledim.py`](src/leakdet/battledim.py) is a Python port of that MATLAB code, so it is a derivative work and is distributed under EUPL-1.2 (full text in [`LICENSES/EUPL-1.2.md`](LICENSES/EUPL-1.2.md)), as is the fixture of its example submissions and published totals, `tests/fixtures/battledim_reference.json`.
+- **Code:** MIT licence, see [LICENSE](LICENSE), except `src/leakdet/battledim.py` and `tests/fixtures/battledim_reference.json`, which are EUPL-1.2 (see above).
 - Full source list with retrieval dates: [`docs/sources.md`](docs/sources.md).

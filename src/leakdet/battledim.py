@@ -1,3 +1,6 @@
+# SPDX-License-Identifier: EUPL-1.2
+# Derivative of KIOS-Research/BattLeDIM "Scoring Algorithm" (EUPL-1.2), https://github.com/KIOS-Research/BattLeDIM
+# Licensed under the EUPL-1.2; see LICENSES/EUPL-1.2.md. The rest of this repository is MIT.
 """Python port of the official BattLeDIM 2020 scoring algorithm.
 
 Ported from KIOS-Research/BattLeDIM "Scoring Algorithm" (MATLAB, EUPL-1.1/1.2):
